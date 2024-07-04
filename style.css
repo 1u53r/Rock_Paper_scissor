@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 98vh;
+    width: auto;
+    background-color: gray;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30%;
+}
+.parent div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(73, 73, 73);
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.heading{
+    height: 20vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+h4{
+    font-size: large;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+h2{
+    margin: 50px;
+}
