@@ -49,3 +49,15 @@ h4{
 h2{
     margin: 50px;
 }
+
+.result{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result h1{
+    padding: 15px 40px;
+    border-radius: 15px;
+}
