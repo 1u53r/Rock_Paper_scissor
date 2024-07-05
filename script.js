@@ -34,23 +34,20 @@ function me() {
         let comp = main();
         if (comp == "scissor") {
             l++;
-            console.log("You lost");
             Lost.textContent = `Lost: ${l}`;
             Message.innerText = "Ahhh!! You lost Scissor Beats paper";
-            Message.style.backgoundColor = "red";
+            Message.style.backgroundColor = "#bb2124";
 
         } else if (comp == "rock") {
             i++;
-            console.log("You won!!");
             Won.textContent = `Won: ${i}`;
             Message.innerText = "Hurray!! You won, Paper Beats Rock";
-            Message.style.backgoundColor = "green";
+            Message.style.backgroundColor = "#22bb33";
         } else if (comp == "paper") {
             u++;
-            console.log("It's a draw");
             Draw.textContent=`Draw: ${u}`;
             Message.innerText = "hun! It's a Draw, You both selected same";
-            Message.style.backgoundColor = "Yellow";
+            Message.style.backgroundColor = "Yellow";
         }
 
     })
@@ -63,22 +60,19 @@ function me() {
         if (comp == "scissor") {
             i++;
             Won.textContent = `Won: ${i}`;
-            console.log("You won!!");
             Message.innerText = "Hurray!! You won, Rock Beats Scissor";
-            Message.style.backgoundColor = "green";
+            Message.style.backgroundColor = "#22bb33";
         } else if (comp == "rock") {
             u++;
-            console.log("It's a draw");
             Draw.textContent=`Draw: ${u}`;
             Message.innerText = "hun! It's a Draw, You both selected same";
-            Message.style.backgoundColor = "Yellow";
+            Message.style.backgroundColor = "Yellow";
 
         } else if (comp == "paper") {
             l++;
             Lost.textContent = `Lost: ${l}`;
-            console.log("You lost");
             Message.innerText = "Ahhh!! You lost Scissor Beats paper";
-            Message.style.backgoundColor = "red";
+            Message.style.backgroundColor = "#bb2124";
 
         }
     })
@@ -92,22 +86,19 @@ function me() {
         if (comp == "scissor") {
             u++;
             Draw.textContent=`Draw: ${u}`;
-            console.log("It's a draw",u);
             Message.innerText = "hun! It's a Draw, You both selected same";
-            Message.style.backgoundColor = "Yellow";
+            Message.style.backgroundColor = "Yellow";
 
         } else if (comp == "rock") {
             l++;
-            console.log("You lost");
             Lost.textContent = `Lost: ${l}`;
             Message.innerText = "Ahhh!! You lost Scissor Beats Rock";
-            Message.style.backgoundColor = "red";
+            Message.style.backgroundColor = "#bb2124";
         } else if (comp == "paper") {
             i++;
             Won.textContent = `Won: ${i}`;
-            console.log("You won!!");
             Message.innerText = "Hurray!! You won, Scissor Beats Paper";
-            Message.style.backgoundColor = "green";
+            Message.style.backgroundColor = "#22bb33";
         }
     })
 }
